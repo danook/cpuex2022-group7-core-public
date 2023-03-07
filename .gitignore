@@ -1,0 +1,30 @@
+.vscode
+
+# Generated files
+*.log
+*.pb
+*.jou
+*.wcfg
+*.vcd
+*.wdb
+obj_dir/*
+xsim.dir/*
+.Xil/*
+
+test/in
+test/out
+
+# Exclude Vivado Projects
+bitstreams/*
+single_core/*
+pipeline_core/*
+
+fpu/*/vivado
+fpu/*/test
+fpu/*~
+fpu/*/*~
+fpu/*/*/*~
+
+memory/*~
+memory/*/*~
+memory/vivado

@@ -1,0 +1,12 @@
+`verilator_config
+lint_off -rule UNPACKED
+lint_off -rule PINCONNECTEMPTY
+lint_off -file "fpu/fadd.sv"
+lint_off -file "fpu/fsub.sv"
+lint_off -file "fpu/fmul.sv"
+lint_off -file "fpu/fdiv.sv"
+lint_off -file "fpu/fsqrt.sv"
+lint_off -file "fpu/flt.sv"
+lint_off -file "fpu/fcvtsw.sv"
+lint_off -file "fpu/fcvtws.sv"
+lint_off -file "fpu/finv.sv"
